@@ -1,4 +1,5 @@
-# S3VDC
+# S3VDC [![ecml](https://img.shields.io/badge/ECML-2020-blueviolet)](https://link.springer.com/chapter/10.1007/978-3-030-67658-2_7)
+
 The Tensorflow implementation of algorithm S3VDC (Simple, Scalable, and Stable Variational Deep Clustering), which is an end-to-end unsupervised deep clustering algorithm. This particular implementation adds the following algorithmic improvements over [VaDE](https://www.ijcai.org/Proceedings/2017/273).
 - Initial &gamma;-Training: enable a much better reproducibility (milder volatility) clustering result without the need of any pre-trained model.
 - Periodic &beta;-Annealing: improve the disentanglement of the learned latent embeddings.
